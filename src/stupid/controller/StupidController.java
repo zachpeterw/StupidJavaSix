@@ -13,6 +13,11 @@ public class StupidController
 	{
 		System.out.println("we made monsters today!");
 		System.out.println("Here is mine " + firstMonster);
+		System.out.println("legs? I have " + firstMonster.getlegCount());
+		System.out.println("horns? I have " + firstMonster.gethornCount());
+		System.out.println("eyes? I have " + firstMonster.geteyeCount());
+		System.out.println("nose? I have " + firstMonster.getnoseCount());
+		System.out.println("I have a bellybutton? " + firstMonster.gethasBellyButton());
 	}
 	/*monsters name is hermes
 	  *has 2 horns
