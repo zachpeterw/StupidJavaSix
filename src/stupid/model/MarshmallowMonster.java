@@ -30,10 +30,3 @@ public class MarshmallowMonster
 	}
 }
 
-/*monsters name is hermes
-  *has 2 horns
-  *has 2 eyes
-  *has 2 legs
-  *has 1 nose
-  *has no belly button
-*/
