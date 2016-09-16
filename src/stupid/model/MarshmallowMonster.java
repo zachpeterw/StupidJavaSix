@@ -59,6 +59,31 @@ public int getnoseCount()
 	return noseCount;
 }
 
+public void setname(String name)
+{
+	this.name = name;
+}
+public void sethasBellyButton(boolean hasBellyButton)
+{
+	this.hasBellyButton = hasBellyButton;
+}
+public void sethornCount(double hornCount)
+{
+	this.hornCount = hornCount;
+}
+public void seteyeCount(int eyeCount)
+{
+	this.eyeCount = eyeCount;
+}
+public void setlegCount(int legCount)
+{
+	this .legCount = legCount;
+}
+public void setnoseCount(int noseCount)
+{
+	this.noseCount = noseCount;
+}
+
 }
 
 
