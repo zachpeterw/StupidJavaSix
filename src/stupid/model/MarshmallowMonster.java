@@ -30,7 +30,7 @@ public class MarshmallowMonster
 	}
 public String toString()
 {
-	String description = ("Monster says: Name is " + name);	
+	String description = ("Monster says: My name is " + name);	
 	
 	return description;
 }

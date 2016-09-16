@@ -25,13 +25,18 @@ public class StupidController
 		System.out.println("I have a bellybutton? " + firstMonster.gethasBellyButton());
 		System.out.println("Do you want to change my name?");
 		String answer = keyboardInput.nextLine();
-	
+		if (answer.equalsIgnoreCase("yes"))
+		{
+			System.out.println("What do you want my name to be?");
+			String newName = keyboardInput.nextLine();
+			firstMonster.setname(newName);
+		}
+		else
+		{
+			System.out.println("I have to keep my name, I don\'t like it :(");
+		}
+		
+		
+		System.out.println(firstMonster);
 	}
-	/*monsters name is hermes
-	  *has 2 horns
-	  *has 2 eyes
-	  *has 2 legs
-	  *has 1 nose
-	  *has no belly button
-	*/
 }
